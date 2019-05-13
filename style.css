@@ -1,0 +1,99 @@
+body {
+  width: 90%;
+}
+
+header {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  margin-left: 3%;
+}
+
+.sinazulninegritayblanco {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav {
+  width: 30%;
+  float: left;
+
+}
+
+ul {
+  list-style: none;
+  line-height: 200%;
+  position: fixed;
+  width: 115px;
+}
+
+main {
+  overflow: hidden;
+  margin-left: 5%;
+}
+
+footer {
+  background-color: rgb(207, 214, 207);
+  border-bottom: 0.5px solid;
+  border-top: 0.5px solid;
+  border-left: 0.5px solid;
+  border-right: 0.5px solid;
+  height: 95px;
+  z-index: 2;
+}
+
+.footertype {
+  margin-left: 1%;
+  position: absolute;
+}
+
+.redessociales {
+  z-index: 10;
+  position: relative;
+  text-align: right;
+  margin-right: 2%;
+  color: white;
+}
+
+.sinazulninegrita {
+  text-decoration: none;
+  color: black;
+}
+
+.seccionentradas {
+  width: 70%;
+  height: 750px;
+  float: right;
+  margin-left: 5% 1px solid;
+  padding-left: 5% 1px solid;
+
+  background-image: url(../img/foto-entradas.jpg);
+  background-repeat: no-repeat;
+  background-position: 98% 41px;
+}
+
+.seccionplatosprincipales {
+  width: 70%;
+  height: 750px;
+  float: right;
+
+  background-image: url(../img/foto-ppal.jpg);
+  background-repeat: no-repeat;
+  background-position: 98% 41px;
+
+}
+
+.seccionpostres {
+  width: 70%;
+  height: 370px;
+  float: right;
+
+  background-image: url(../img/foto-postre.jpg);
+  background-repeat: no-repeat;
+  background-position: 98% 41px;
+
+}
+
+#comidasennegrita {
+  font-weight: bold;
+}
